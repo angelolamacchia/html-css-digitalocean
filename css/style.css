@@ -1,0 +1,93 @@
+/* .debug [class*='col-'] {
+  height: 300px;
+  border: 1px solid black;
+  background: orange;
+} */
+
+/* impostazioni generali */
+body {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.padding_bottom {
+  padding-bottom: 30px;
+}
+.padding_top {
+  padding-top: 30px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* impostazioni nav */
+nav {
+  height: 70px;
+  background-color: white;
+}
+nav img {
+  width: 150px;
+  margin-top: 20px;
+}
+nav li {
+  line-height: 70px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+nav li a {
+  color: black;
+  font-weight: bold;
+}
+nav .btn {
+  background: none;
+  border: 1px solid #0f8ff5;
+  color: #0f8ff5;
+}
+#bars {
+  font-size: 30px;
+  color: #0f8ff5;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+/* impostazioni banner */
+#banner {
+  background-color: lightblue;
+  color: white;
+}
+.my_btn {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  position: relative;
+  color: grey;
+}
+.my_btn img {
+  width: 22px;
+  position: absolute;
+  left: 10px;
+}
+.box-white {
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+
+/* impostazioni logos */
+#logos {
+  background-color: #f3f5f9;
+}
+#logos .row {
+
+}
+#logos .box {
+  width: 100%;
+  height: 100px;
+}
+#logos img {
+  width: 90%;
+  height: 100%
+}
