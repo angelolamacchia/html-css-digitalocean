@@ -19,13 +19,24 @@ body {
 
 li {
   list-style: none;
-  display: inline-block;
+}
+
+.wrapper_90 {
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* impostazioni nav */
 nav {
+  width: 100%;
   height: 70px;
   background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+nav li {
+  display: inline-block;
 }
 nav img {
   width: 150px;
@@ -54,7 +65,11 @@ nav .btn {
 
 /* impostazioni banner */
 #banner {
-  background-color: lightblue;
+  margin-top: 70px;
+  background-image: url('../img/jumbo.svg') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
 }
 .my_btn {
@@ -90,4 +105,26 @@ nav .btn {
 #logos img {
   width: 90%;
   height: 100%
+}
+
+/* impostazioni configuration */
+#configuration { 
+}
+#configuration p {
+  font-size: 1.5em;
+  color: grey;
+}
+#configuration li {
+  color: grey;
+  vertical-align: bottom;
+  padding: 10px;
+}
+#configuration ul {
+  padding-left: 0;
+}
+#configuration .border-left {
+  border-left: 1px solid lightgrey;
+}
+#configuration .box {
+  margin: 10px;
 }
