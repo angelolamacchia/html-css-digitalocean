@@ -16,6 +16,12 @@ body {
 .padding_top {
   padding-top: 30px;
 }
+.padding_top_10 {
+  padding-top: 10px;
+}
+.padding_bottom_10 {
+  padding-bottom: 10px;
+}
 
 li {
   list-style: none;
@@ -24,6 +30,24 @@ li {
 .wrapper_90 {
   width: 90%;
   margin: 0 auto;
+}
+.wrapper_80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.font_1_5 {
+  font-size: 1.5em;
+}
+
+.text_p p {
+  font-size: 1.5em;
+  color: grey;
+}
+.text_p_big {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: grey;
 }
 
 /* impostazioni nav */
@@ -80,6 +104,14 @@ nav .btn {
   position: relative;
   color: grey;
 }
+.my_btn_blue {
+  background-color: #579aff;
+  color: white;
+}
+.my_btn_blue:hover {
+  background-color: #004aff;
+  color: white;
+}
 .my_btn img {
   width: 22px;
   position: absolute;
@@ -92,11 +124,8 @@ nav .btn {
 }
 
 /* impostazioni logos */
-#logos {
+#logos, .slider {
   background-color: #f3f5f9;
-}
-#logos .row {
-
 }
 #logos .box {
   width: 100%;
@@ -108,23 +137,68 @@ nav .btn {
 }
 
 /* impostazioni configuration */
-#configuration { 
-}
-#configuration p {
-  font-size: 1.5em;
-  color: grey;
-}
-#configuration li {
+.configuration li {
   color: grey;
   vertical-align: bottom;
   padding: 10px;
 }
-#configuration ul {
+.configuration ul {
   padding-left: 0;
 }
-#configuration .border-left {
+.configuration .border-left {
   border-left: 1px solid lightgrey;
 }
-#configuration .box {
-  margin: 10px;
+.configuration .box {
+  margin: 20px 10px;
+}
+
+/* impostazioni slider */
+.slider .box .img_slider {
+  max-height: 500px;
+  width: 100%;
+}
+
+.slider .box {
+  max-height: 500px;
+  line-height: 500px;
+  vertical-align: middle;
+  position: relative;
+}
+.slider .arrow {
+  font-size: 3em;
+}
+.arrow_grey{
+  color: grey;
+}
+.slider .fa-circle {
+  font-size: 1.2em;
+  color: #004aff;
+}
+
+/* impostazioni slider 2 */
+.box_empty {
+  height: 500px;
+  padding: 20px;
+  background-color: white;
+  line-height: normal;
+}
+.box_empty .logo {
+  width: 300px;
+  padding: 30px 0;
+}
+.box_empty .text_p_big {
+  font-size: 2em;
+}
+.box_empty p {
+  font-size: 1.5em;
+}
+.box_empty a {
+  font-size: 1.5em;
+}
+.box_empty .content_box {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
