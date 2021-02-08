@@ -117,6 +117,7 @@ nav .btn {
   width: 22px;
   position: absolute;
   left: 10px;
+  top: 10px;
 }
 .box-white {
   background-color: white;
