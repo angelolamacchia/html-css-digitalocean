@@ -33,6 +33,9 @@ li {
 .font_1_5 {
   font-size: 1.5em;
 }
+.blue {
+  color: #007FFF;
+}
 
 .text_p p {
   font-size: 1.5em;
@@ -139,21 +142,24 @@ nav .btn {
   color: #004aff;
 }
 
-/* impostazioni configuration */
+/* impostazioni configurazioni */
 .configuration li {
   color: grey;
   vertical-align: bottom;
   padding: 10px;
+  font-size: 1.3em;
 }
 .configuration ul {
   padding-left: 0;
 }
-.configuration .border-left {
-  border-left: 1px solid lightgrey;
-}
 .configuration .box {
   margin: 20px 10px;
 }
+.configuration .border-left {
+  border-left: 1px solid lightgrey;
+  margin: 0;
+}
+
 
 /* impostazioni slider */
 .slider .box .img_slider {
@@ -196,8 +202,7 @@ nav .btn {
   font-size: 1.3em;
 }
 .row_regions {
-  margin: 0 20px 10px 0;
-
+  margin: 0 20px;
 }
 .row_regions:not(.no_border) {
   border-bottom: 1px solid white;
@@ -243,6 +248,7 @@ nav .btn {
 #getstarted .btn {
   color: #0f8ff5;
   font-size: 1.5em;
+  margin: 10px 0;
 }
 
 /* impostazioni footer */
@@ -256,6 +262,9 @@ footer .logos {
 }
 footer ul {
   padding: 0;
+}
+footer li:not(:first-child) {
+  padding-top: 5px;
 }
 footer li a {
   display: block;
@@ -335,7 +344,7 @@ top: 20px;
   line-height: 20px;
   color: white;
   padding: 4px;
-  border: 1px solid black;
+  border: 1px solid #007FFF;
 }
 .number {
   border-radius: 50%;
