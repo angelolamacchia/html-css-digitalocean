@@ -175,6 +175,32 @@ nav .btn {
   color: #004aff;
 }
 
+/* impostazioni service */
+#service, #getstarted {
+  background: linear-gradient(#0046c4, #001f9a);
+  color: white;
+}
+#service .row_regions {
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 1.3em;
+}
+.row_regions {
+  margin: 0 20px 10px 0;
+
+}
+.row_regions:not(.no_border) {
+  border-bottom: 1px solid white;
+}
+.row_regions .code {
+  font-weight: bolder;
+}
+.row_regions a {
+  display: block;
+  text-align: right;
+}
+
 /* impostazioni slider 2 */
 .box_empty {
   height: 500px;
@@ -201,4 +227,9 @@ nav .btn {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* impostazioni get started */
+#getstarted .btn {
+  color: #0f8ff5;
 }
